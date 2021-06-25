@@ -6,5 +6,5 @@ For more information see:
 
 * [SDK for realtime communication](https://sdk.virtualcareservices.net/)
 * [Guide for iOS realtime SDK](https://sdk.virtualcareservices.net/sdks/ios)
-* [iOS API for realtime communication](https://sdk.virtualcareservices.net/reference/ios)
+* [Reference API for iOS realtime SDK](https://sdk.virtualcareservices.net/reference/ios)
 * [VCS Realtime SDK Sample App for iOS](https://github.com/ATOS-VIRTUAL-CARE/realtime-sdk-demo-ios)
