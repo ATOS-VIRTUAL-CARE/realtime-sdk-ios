@@ -2,12 +2,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "RealtimeSDK",
+    name: "VcsRealtimeSdk",
     platforms: [.iOS(.v12)],
     products: [
         .library(
-            name: "RealtimeSDK",
-            targets: ["RealtimeSDK"]),
+            name: "VcsRealtimeSdk",
+            targets: ["VcsRealtimeSdk"]),
     ],
     dependencies: [ 
                    .package(url: "https://github.com/ATOS-VIRTUAL-CARE/apollo-ios", .branch("graphql-transport-ws")), 
@@ -15,9 +15,9 @@ let package = Package(
                    ],
     targets: [
         .binaryTarget(
-            name: "RealtimeSDK",
-            url: "https://github.com/ATOS-VIRTUAL-CARE/realtime-sdk-ios/releases/download/0.5.0/RealtimeSDK-0.5.0.xcframework.zip",
-            checksum: "0bfcd1bd27eb2d18b3db8fd82bddaae5042409fd828b1e23a13e9a50d041da6b"
+            name: "VcsRealtimeSdk",
+            url: "https://github.com/ATOS-VIRTUAL-CARE/realtime-sdk-ios/releases/download/0.5.1/VcsRealtimeSdk-0.5.1.xcframework.zip",
+            checksum: "2185d02f8f764741ecab447358840488e562045369ddd53e8ced3d2f777a21c0"
         ),
     ]
 )
