@@ -2,7 +2,7 @@
 
 This is the Swift package for the VCS Realtime SDK for iOS. This package can be included in an iOS Xcode project to provide support for joining virtual rooms and interacting with audio and/or video.
 
-Where to find more information about the VCS Realtime SDKs and APIs.
+Where to find more information about the VCS Realtime SDKs and APIs:
 
 * For more information on the VCS SDK family, see the [VCS realtime SDK page](https://sdk.virtualcareservices.net/)
 * For more information on the VCS iOS SDK, see the [guide for iOS realtime SDK](https://sdk.virtualcareservices.net/sdks/ios)
