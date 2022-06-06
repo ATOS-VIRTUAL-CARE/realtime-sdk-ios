@@ -10,13 +10,13 @@ let package = Package(
             targets: ["VcsRealtimeSdk"]),
     ],
     dependencies: [ 
-                   .package(url: "https://github.com/ATOS-VIRTUAL-CARE/webrtc-ios", .upToNextMinor(from: "98.0.0")),
+                   .package(url: "https://github.com/ATOS-VIRTUAL-CARE/webrtc-ios", .upToNextMinor(from: "100.0.0")),
                    ],
     targets: [
         .binaryTarget(
             name: "VcsRealtimeSdk",
-            url: "https://github.com/ATOS-VIRTUAL-CARE/realtime-sdk-ios/releases/download/0.9.1/VcsRealtimeSdk-0.9.1.xcframework.zip",
-            checksum: "a4de078a2432365e335b2c15a29fff8f638d358c5d4f9d0bf432a3ff5bbb93d7"
+            url: "https://github.com/ATOS-VIRTUAL-CARE/realtime-sdk-ios/releases/download/0.9.2/VcsRealtimeSdk-0.9.2.xcframework.zip",
+            checksum: "6ca40c807e4406b6883609eb0a6f0f35d916836c374fea98be822174637aaa80"
         ),
     ]
 )
