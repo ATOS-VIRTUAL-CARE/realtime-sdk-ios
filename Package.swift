@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "VcsRealtimeSdk",
-            url: "https://github.com/ATOS-VIRTUAL-CARE/realtime-sdk-ios/releases/download/0.9.3/VcsRealtimeSdk-0.9.3.xcframework.zip",
-            checksum: "8b3ec89f9bb4dbcc8d17c7070339b00e9d47abfe08442e38c4a654403684a6c8"
+            url: "https://github.com/ATOS-VIRTUAL-CARE/realtime-sdk-ios/releases/download/0.10.0/VcsRealtimeSdk-0.10.0.xcframework.zip",
+            checksum: "4523efa78044864546ac3cdf6ae1c9b5c73ad39fbd365f1b37f31f499a9472df"
         ),
     ]
 )
